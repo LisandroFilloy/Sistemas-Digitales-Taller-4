@@ -1,0 +1,2 @@
+- Entiendo que guardar la direccion de retorno para una funcion es solamente necesario si la misma va a saltar a otra funcion, pero no estoy seguro.
+- 
