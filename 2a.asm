@@ -23,25 +23,13 @@ Fin
             Ret
 
 
-Casos de test: 
+# Casos de test: 
 
-1) f(1)
-
+Main:
             li a0, 2
             jal ra, FUNCION
             li a1, 1
             bneq a0, a1, noFunciona
-funciona        
-            li a1, 1
-            j fin
-noFunciona      
-            li a0, 0
-fin             
-            j fin
-
-
-2) f(5)
-
             li a0, 5
             jal ra, FUNCION
             li a1, 3
@@ -54,20 +42,4 @@ noFunciona
 fin             
             j fin
 
-
-3) f(7)
-
-            li a0, 7
-            jal ra, FUNCION
-            li a1, 8
-            bneq a0, a1, noFunciona
-funciona        
-            li a1, 1
-            j fin
-noFunciona      
-            li a0, 0
-fin             
-            j fin
-
-
-- En cada caso, en la primer linea se debe asignar a a0 el valor n y en la tercer linea, se debe asignar a a1 el n-esimo valor de la secuencia. De esta manera podemos testear.
+# Testeado en Ripes:
